@@ -17,9 +17,17 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"
+            className="hidden md:block text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"
           >
             Hi, I&apos;m Sheryar 👋
+          </motion.h1>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            className="block md:hidden text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"
+          >
+            Hi, I&apos;m Sheryar
           </motion.h1>
 
           <motion.h2
@@ -48,7 +56,7 @@ export function Hero() {
             className="flex justify-center space-x-6 mt-6 md:mt-8"
           >
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/sheryar-dev1/potfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"

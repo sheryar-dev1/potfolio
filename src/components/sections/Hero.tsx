@@ -5,13 +5,13 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 export function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center py-20">
+    <section id="home" className="md:min-h-screen md:mt-0 mt-14  flex items-center justify-center py-12 md:py-20">
       <div className="text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="space-y-6"
+          className="space-y-4 md:space-y-6"
         >
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -35,7 +35,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
-            className="text-gray-400 max-w-2xl mx-auto text-lg"
+            className="text-gray-400 max-w-2xl mx-auto text-base md:text-lg px-4"
           >
             With 4 years of experience in building modern web applications using React, Next.js, and other cutting-edge technologies.
             Passionate about creating beautiful, responsive, and user-friendly interfaces.
@@ -45,7 +45,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5 }}
-            className="flex justify-center space-x-6 mt-8"
+            className="flex justify-center space-x-6 mt-6 md:mt-8"
           >
             <a
               href="https://github.com/yourusername"
@@ -77,7 +77,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.5 }}
-            className="mt-12"
+            className="mt-8 md:mt-12"
           >
             <a
               href="#contact"

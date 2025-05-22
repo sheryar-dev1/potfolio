@@ -23,7 +23,6 @@ const projects = [
       'GraphQL',
       'Apollo Client',
       'JavaScript',
-      'React Query',
     ],
     features: [
       'Complete product registration workflow',

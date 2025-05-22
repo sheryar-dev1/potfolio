@@ -110,7 +110,7 @@ export function Experience() {
             <div className="bg-gray-800/50 p-6 rounded-lg backdrop-blur-sm">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-sm md:text-xl font-bold">{experience.title}</h3>
+                  <h3 className="text-base md:text-xl font-bold">{experience.title}</h3>
                   <p className="text-sm md:text-base text-blue-400">{experience.company}</p>
                 </div>
                 <span className= "text-sm md:text-base text-gray-400 mt-2 md:mt-0">{experience.period}</span>

@@ -100,7 +100,7 @@ export function Experience() {
         animate={inView ? 'visible' : 'hidden'}
         className="max-w-4xl mx-auto px-4"
       >
-        {experiences.map((experience, index) => (
+        {experiences.map((experience) => (
           <motion.div
             key={experience.title}
             variants={itemVariants}

@@ -1,8 +1,14 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
 
 export const metadata: Metadata = {
   title: 'Sheryar - Frontend Developer Portfolio',
@@ -34,11 +40,6 @@ export const metadata: Metadata = {
     title: 'Sheryar - Frontend Developer Portfolio',
     description: 'Frontend developer specializing in React, Next.js, and modern web technologies',
     creator: '@yourtwitterhandle',
-  },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
   },
   robots: {
     index: true,
